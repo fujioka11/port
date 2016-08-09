@@ -153,7 +153,7 @@ a {
     bottom: 0px;
     width: 100px;
     margin-left: -50px;
-    border-bottom: 4px solid #18C4CF; }
+    border-bottom: 4px solid #00b2c7; }
 
 .common_under-headline {
   font-size: 20px;
@@ -182,7 +182,7 @@ a {
   display: inline-block; }
 
 .common_under {
-  background: #fcfcfc;
+  background: #f2f4f5;
   /*background-image: url(../img/common/tram.png);*/
   background-position: left top;
   padding-bottom: 70px; }
@@ -192,7 +192,7 @@ a {
   display: block;
   z-index: -2;
   width: 100%;
-  background: #fcfcfc;
+  background: #f2f4f5;
   background-position: left top; }
 
 #top .titillium {
@@ -218,7 +218,7 @@ a {
   margin-top: 35px; }
 
 h1 {
-  background: #18C4CF;
+  background: #00b2c7;
   color: #fff;
   text-align: center;
   font-weight: normal; }
@@ -400,8 +400,8 @@ header {
     display: inline-block;
     padding: 20px 0;
     background-color: #fff;
-    color: #18C4CF;
-    border: 3px solid #18C4CF;
+    color: #00b2c7;
+    border: 3px solid #00b2c7;
     text-align: center;
     text-decoration: none;
     -webkit-transition: all .3s;
@@ -417,11 +417,11 @@ header {
       border: 7px solid transparent;
       border-top-width: 5px;
       border-bottom-width: 5px;
-      border-left-color: #18C4CF;
+      border-left-color: #00b2c7;
       -webkit-transition: all .3s;
       transition: all .3s; }
     .btn_more a:hover {
-      background-color: #18C4CF;
+      background-color: #00b2c7;
       color: #fff;
       box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5); }
       .btn_more a:hover:after {

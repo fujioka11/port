@@ -153,7 +153,7 @@ a {
     bottom: 0px;
     width: 100px;
     margin-left: -50px;
-    border-bottom: 4px solid #18C4CF; }
+    border-bottom: 4px solid #00b2c7; }
 
 .common_under-headline {
   font-size: 20px;
@@ -182,7 +182,7 @@ a {
   display: inline-block; }
 
 .common_under {
-  background: #fcfcfc;
+  background: #f2f4f5;
   /*background-image: url(../img/common/tram.png);*/
   background-position: left top;
   padding-bottom: 70px; }
@@ -192,7 +192,7 @@ a {
   display: block;
   z-index: -2;
   width: 100%;
-  background: #fcfcfc;
+  background: #f2f4f5;
   background-position: left top; }
 
 #top .titillium {
@@ -218,7 +218,7 @@ a {
   margin-top: 35px; }
 
 h1 {
-  background: #18C4CF;
+  background: #00b2c7;
   color: #fff;
   text-align: center;
   font-weight: normal; }
@@ -400,8 +400,8 @@ header {
     display: inline-block;
     padding: 20px 0;
     background-color: #fff;
-    color: #18C4CF;
-    border: 3px solid #18C4CF;
+    color: #00b2c7;
+    border: 3px solid #00b2c7;
     text-align: center;
     text-decoration: none;
     -webkit-transition: all .3s;
@@ -417,11 +417,11 @@ header {
       border: 7px solid transparent;
       border-top-width: 5px;
       border-bottom-width: 5px;
-      border-left-color: #18C4CF;
+      border-left-color: #00b2c7;
       -webkit-transition: all .3s;
       transition: all .3s; }
     .btn_more a:hover {
-      background-color: #18C4CF;
+      background-color: #00b2c7;
       color: #fff;
       box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5); }
       .btn_more a:hover:after {
@@ -615,56 +615,69 @@ section {
 
 .aboutinner {
   position: relative;
-  height: 985px;
-  width: 1200px;
+  max-width: 1600px;
+  min-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 0px; }
   .aboutinner .top_aboutimg {
-    position: absolute;
+    width: 100%;
+    left: 0px;
+    z-index: -1; }
+    .aboutinner .top_aboutimg img {
+      width: 100%; }
+  .aboutinner .top_aboutinner2 {
+    margin-top: -50px;
+    width: 100%;
+    height: 530px; }
+  .aboutinner .top_aboutinnerwidth {
     width: 1200px;
-    left: 0px; }
-  .aboutinner .top_aboutimg2 {
-    position: absolute;
-    top: 450px;
-    right: 50px; }
-  .aboutinner .top_aboutcontents {
-    position: absolute;
-    top: 550px;
-    width: 600px;
-    left: 50%;
-    margin-left: -512px; }
-    .aboutinner .top_aboutcontents .btn_more {
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 0;
+    position: relative; }
+    .aboutinner .top_aboutinnerwidth .top_aboutimg2 {
       position: absolute;
-      right: 0px;
-      margin-top: 40px; }
+      top: 0;
+      right: 50px; }
+    .aboutinner .top_aboutinnerwidth .top_aboutcontents {
+      position: absolute;
+      top: 100px;
+      width: 730px; }
+  .aboutinner .top_aboutcontents .btn_more {
+    position: absolute;
+    right: 0px;
+    margin-top: 40px; }
 
 .top_about {
   padding-top: 0px; }
   .top_about .top_bg-gray {
     bottom: 0;
-    height: 60px; }
+    height: 95px; }
 
 .top_service .top_bg-gray {
   top: 0px;
   height: 350px; }
 .top_service .top_txtbox {
-  width: 1024px;
+  min-width: 1100px;
+  max-width: 1400px;
   text-align: left;
   margin-right: auto;
   margin-left: auto;
-  position: relative;
-  height: 502px; }
+  position: relative; }
   .top_service .top_txtbox .top_serviceimg {
-    position: absolute;
     z-index: -1;
-    left: 0px; }
+    left: 0px;
+    width: 76.18%; }
+    .top_service .top_txtbox .top_serviceimg img {
+      width: 100%;
+      height: auto; }
   .top_service .top_txtbox .top_servicebox {
     background: #fff;
     padding: 30px 40px 80px;
     position: absolute;
-    right: -90px;
-    top: 50px;
+    right: 30px;
+    top: 90px;
     width: 540px;
     box-shadow: 0px 2px 1px 0px #EBEBEB; }
   .top_service .top_txtbox .top_btn {
@@ -686,12 +699,6 @@ section {
       display: table;
       clear: both; }
 
-.top_contents {
-  width: 1024px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: left; }
-
 .top_headline {
   position: relative;
   display: inline-block;
@@ -708,7 +715,7 @@ section {
     left: 0;
     right: 0;
     bottom: -20px;
-    border-bottom: 4px solid #18C4CF; }
+    border-bottom: 4px solid #00b2c7; }
 
 h4 {
   /*margin-top: 50px;*/

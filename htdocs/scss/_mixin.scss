@@ -26,6 +26,11 @@
     width: ceil((( $pxWidth / $parentPxWidth ) * 10000% )) / 100;
 }
 
+//パーセント
+@mixin topPercent( $parentPxWidth, $pxWidth ){
+    top: ceil((( $pxWidth / $parentPxWidth ) * 10000% )) / 100;
+}
+
 
 //ポジション配置
 
