@@ -9,7 +9,7 @@ section {
   max-width: 1600px;
   min-width: 1200px;
   @include center();
-  padding-top: 0px; 
+  padding-top: 0px;
 
 
   .top_aboutimg{
@@ -29,7 +29,7 @@ section {
     height: 530px;
   }
 
-      
+
   .top_aboutinnerwidth{
     width: $base_wrap - 80;
     @include center();
@@ -85,7 +85,7 @@ section {
 
   .top_txtbox{
     min-width: 1100px;
-    max-width: 1400px;
+    max-width: 1600px;
     text-align: left;
     @include center();
     position: relative;
