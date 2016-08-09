@@ -1,0 +1,53 @@
+
+.btn_more{
+  width: 300px;
+  @include center();
+
+  a{
+    position: relative;
+    @include fts(15);
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px 0;
+    background-color: #fff;
+    color: $basecolor;
+    border: 3px solid $basecolor;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    width: 100%;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.50);
+
+    &:after{
+      position: absolute;
+      top: 50%;
+      	right: 1em;
+        content: '';
+        margin-top: -5px;
+        border: 7px solid transparent;
+        border-top-width: 5px;
+        border-bottom-width: 5px;
+        border-left-color: $basecolor;
+        transition: all .3s;
+    }
+    &:hover{
+      background-color: $basecolor;
+      color: #fff;
+
+      box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.50);
+
+      &:after{
+        border-left-color: #fff;
+      }
+
+    }
+  }
+  @keyframes arrow {
+	50% {
+		right: -.09em;
+	}
+	100% {
+		right: .2em;
+	}
+}
+}

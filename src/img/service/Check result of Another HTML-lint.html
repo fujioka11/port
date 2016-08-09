@@ -1,0 +1,410 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="keywords" content="lint,バリデータ,HTML文法,HTML検証,最適化,SEO">
+<meta name="author" content="ISHINO Keiichiro">
+<link rel="stylesheet" type="text/css" href="Check%20result%20of%20Another%20HTML-lint_files/htmllint.css">
+<link rel="contents" href="http://cetus.sakura.ne.jp/htmllint/index.html">
+<title>Check result of Another HTML-lint</title>
+</head>
+<body>
+<div class="nav" align="center">
+[<a href="http://cetus.sakura.ne.jp/htmllint/index.html">about</a>]
+[<a href="http://cetus.sakura.ne.jp/htmllint/sitemap.html">sitemap</a>]
+[<a href="http://cetus.sakura.ne.jp/htmllint/htmllint.html">gateway</a>]
+[<a href="http://cetus.sakura.ne.jp/htmllint/htmllintl.html">lite</a>]
+[<a href="http://cetus.sakura.ne.jp/htmllint/htmllinte.html">dyn</a>]
+</div><hr>
+<a href="https://sw.vector.co.jp/swreg/step1.info?srno=SR011941&amp;site=v&amp;sid=335404740" class="image"><img src="Check%20result%20of%20Another%20HTML-lint_files/fight.gif" alt="がんばりましょう" height="68" align="right" border="0" width="68"></a><h2>チェックの結果は以下のとおりです。</h2>
+<p>
+HTML4.01 Transitional としてチェックしました。<br>
+82個のエラーがありました。このHTMLは -309点です。タグが 19種類 103組使われています。<br>
+</p>
+<p>先頭の数字はエラーのおおまかな重要度を 0〜9 で示しています(減点数ではありません)。少ない数字は軽く、9 になるほど致命的です。<strong>このHTMLには重要な問題が多く含まれています</strong>。環境によっては閲覧できない可能性が非常に高いと言えます。減点対象外のごく軽度のエラーは割愛されています。</p><p>
+6: <a href="#1">line 1</a>: 不明な DOCTYPE宣言です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-doctype" target="explain">解説 4</a><br>
+5: <a href="#5">line 5</a>: &lt;META&gt; に他のHTML用の属性 `CHARSET` が指定されています。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#other-html-attribute" target="explain">解説 80</a><br>
+6: <a href="#5">line 5</a>: &lt;META&gt; には CONTENT 属性が必要です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#required-attribute" target="explain">解説 86</a><br>
+9: <a href="#6">line 6</a>: &lt;META HTTP-EQUIV="CONTENT-TYPE" CONTENT="〜"&gt; で CHARSET が指定されるより前に非ASCII文字が含まれています。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#non-ascii-early" target="explain">解説 131</a><br>
+1: <a href="#13">line 13</a>: &lt;SCRIPT&gt; を使うときは 
+&lt;HEAD&gt;〜&lt;/HEAD&gt; 内に &lt;META HTTP-EQUIV="CONTENT-SCRIPT-TYPE" 
+CONTENT="〜"&gt; を指定するようにしましょう。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#content-xxxx-type" target="explain">解説 146</a><br>
+4: <a href="#19">line 19</a>: &lt;HEAD&gt;〜&lt;/HEAD&gt; 内に &lt;META HTTP-EQUIV="CONTENT-TYPE" CONTENT="〜"&gt; が含まれていません。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#content-type" target="explain">解説 128</a><br>
+3: <a href="#32">line 32</a>: &lt;SCRIPT&gt;〜&lt;/SCRIPT&gt; 内の要素はすべてコメントで囲んだ方が安全です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#comment-element" target="explain">解説 153</a><br>
+8: <a href="#34">line 34</a>: &lt;header&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#37">line 37</a>: &lt;nav&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+5: <a href="#40">line 40</a>: &lt;A&gt; のアンカー名が空です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#empty-fragment-id" target="explain">解説 216</a><br>
+5: <a href="#43">line 43</a>: &lt;A&gt; のアンカー名が空です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#empty-fragment-id" target="explain">解説 216</a><br>
+5: <a href="#49">line 49</a>: &lt;A&gt; のアンカー名が空です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#empty-fragment-id" target="explain">解説 216</a><br>
+5: <a href="#52">line 52</a>: &lt;A&gt; のアンカー名が空です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#empty-fragment-id" target="explain">解説 216</a><br>
+8: <a href="#55">line 55</a>: &lt;/nav&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+5: <a href="#61">line 61</a>: &lt;A&gt; のアンカー名が空です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#empty-fragment-id" target="explain">解説 216</a><br>
+5: <a href="#64">line 64</a>: &lt;A&gt; のアンカー名が空です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#empty-fragment-id" target="explain">解説 216</a><br>
+8: <a href="#70">line 70</a>: &lt;/header&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#72">line 72</a>: &lt;canvas&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#72">line 72</a>: &lt;/canvas&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+7: <a href="#79">line 79</a>: HTML4.01 Transitional では空要素タグを `&lt;IMG /&gt;` と書くことはできません。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#xhtml-emptytag" target="explain">解説 75</a><br>
+8: <a href="#85">line 85</a>: &lt;section&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+7: <a href="#89">line 89</a>: HTML4.01 Transitional では空要素タグを `&lt;IMG /&gt;` と書くことはできません。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#xhtml-emptytag" target="explain">解説 75</a><br>
+7: <a href="#92">line 92</a>: HTML4.01 Transitional では空要素タグを `&lt;IMG /&gt;` と書くことはできません。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#xhtml-emptytag" target="explain">解説 75</a><br>
+5: <a href="#100">line 100</a>: &lt;A&gt; のアンカー名が空です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#empty-fragment-id" target="explain">解説 216</a><br>
+1: <a href="#104">line 104</a>: &lt;SPAN&gt; と &lt;/SPAN&gt; の間が空です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#empty-container" target="explain">解説 51</a><br>
+8: <a href="#105">line 105</a>: &lt;/section&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#128">line 128</a>: &lt;section&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+1: <a href="#129">line 129</a>: &lt;SPAN&gt; と &lt;/SPAN&gt; の間が空です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#empty-container" target="explain">解説 51</a><br>
+7: <a href="#133">line 133</a>: HTML4.01 Transitional では空要素タグを `&lt;IMG /&gt;` と書くことはできません。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#xhtml-emptytag" target="explain">解説 75</a><br>
+5: <a href="#141">line 141</a>: &lt;A&gt; のアンカー名が空です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#empty-fragment-id" target="explain">解説 216</a><br>
+8: <a href="#146">line 146</a>: &lt;/section&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#148">line 148</a>: &lt;section&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+1: <a href="#150">line 150</a>: &lt;DIV&gt; と &lt;/DIV&gt; の間が空です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#empty-container" target="explain">解説 51</a><br>
+8: <a href="#152">line 152</a>: &lt;article&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#155">line 155</a>: &lt;figure&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+6: <a href="#156">line 156</a>: &lt;IMG&gt; には ALT 属性が必要です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#required-attribute" target="explain">解説 86</a><br>
+8: <a href="#157">line 157</a>: &lt;figcaption&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#160">line 160</a>: &lt;/figcaption&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#161">line 161</a>: &lt;/figure&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#164">line 164</a>: &lt;figure&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+6: <a href="#165">line 165</a>: &lt;IMG&gt; には ALT 属性が必要です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#required-attribute" target="explain">解説 86</a><br>
+8: <a href="#166">line 166</a>: &lt;figcaption&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#169">line 169</a>: &lt;/figcaption&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#170">line 170</a>: &lt;/figure&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#173">line 173</a>: &lt;figure&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+6: <a href="#174">line 174</a>: &lt;IMG&gt; には ALT 属性が必要です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#required-attribute" target="explain">解説 86</a><br>
+8: <a href="#175">line 175</a>: &lt;figcaption&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#178">line 178</a>: &lt;/figcaption&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#179">line 179</a>: &lt;/figure&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#182">line 182</a>: &lt;figure&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+6: <a href="#183">line 183</a>: &lt;IMG&gt; には ALT 属性が必要です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#required-attribute" target="explain">解説 86</a><br>
+8: <a href="#184">line 184</a>: &lt;figcaption&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#187">line 187</a>: &lt;/figcaption&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#188">line 188</a>: &lt;/figure&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#191">line 191</a>: &lt;figure&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+6: <a href="#192">line 192</a>: &lt;IMG&gt; には ALT 属性が必要です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#required-attribute" target="explain">解説 86</a><br>
+8: <a href="#193">line 193</a>: &lt;figcaption&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#196">line 196</a>: &lt;/figcaption&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#197">line 197</a>: &lt;/figure&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#200">line 200</a>: &lt;figure&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+6: <a href="#201">line 201</a>: &lt;IMG&gt; には ALT 属性が必要です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#required-attribute" target="explain">解説 86</a><br>
+8: <a href="#202">line 202</a>: &lt;figcaption&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#205">line 205</a>: &lt;/figcaption&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#206">line 206</a>: &lt;/figure&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#209">line 209</a>: &lt;/article&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+8: <a href="#219">line 219</a>: &lt;/section&gt; は不明なタグです。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#unknown-element" target="explain">解説 54</a><br>
+5: <a href="#223">line 223</a>: &lt;A&gt; のアンカー名が空です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#empty-fragment-id" target="explain">解説 216</a><br>
+7: <a href="#223">line 223</a>: HTML4.01 Transitional では空要素タグを `&lt;IMG /&gt;` と書くことはできません。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#xhtml-emptytag" target="explain">解説 75</a><br>
+2: <a href="#223">line 223</a>: リンクイメージの &lt;IMG&gt; の ALT 属性には何か説明を書きましょう。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#link-text-equivalent" target="explain">解説 209</a><br>
+5: <a href="#224">line 224</a>: &lt;A&gt; のアンカー名が空です。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#empty-fragment-id" target="explain">解説 216</a><br>
+7: <a href="#224">line 224</a>: HTML4.01 Transitional では空要素タグを `&lt;IMG /&gt;` と書くことはできません。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#xhtml-emptytag" target="explain">解説 75</a><br>
+2: <a href="#224">line 224</a>: リンクイメージの &lt;IMG&gt; の ALT 属性には何か説明を書きましょう。 → <a href="http://cetus.sakura.ne.jp/htmllint/explain.html#link-text-equivalent" target="explain">解説 209</a></p>
+<hr><h2>チェックしたHTMLは以下のとおりです。</h2>
+<ol>
+<li><code><a name="1"><span class="error-line">&lt;!DOCTYPE html&gt;</span></a></code></li>
+<li><code>&lt;html lang="ja"&gt;</code></li>
+<li></li>
+<li><code>&lt;head&gt;</code></li>
+<li><code><a name="5"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;</span></a></code></li>
+<li><code><a name="6"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta
+ name="description" 
+content="ホームページで「集客UP・売上UP・利益UP」の仕組みを作り、経営に関わるすべての問題をデザインのチカラで解決します。直感で
+「…！！」や「…？？」と感じたら、今すぐオンズにご相談ください。茨城県つくば市｜株式会社オンズ"&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="format-detection" content="telephone=no,address=no,email=no"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width,initial-scale=1.0"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="canonical" href="http://nina-archetype.com"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="icon" href="/icon/favicon.ico"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="apple-touch-icon" href="/icon/icon.png"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="alternate" type="application/rss+xml" href="http://nina-archetype.com/feed"&gt;</code></li>
+<li><code><a name="13"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;script type="text/javascript" src="js/jquery-1.7.2.min.js"&gt;&lt;/script&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'&gt;</code></li>
+<li></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="stylesheet" href="css/top.css"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;nina | 東京・横浜でホームページ制作&lt;/title&gt;</code></li>
+<li><code><a name="19"><span class="error-line">&lt;/head&gt;</span></a></code></li>
+<li></li>
+<li><code>&lt;body id="top"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&lt;script type="text/javascript" src="js/script.js"&gt;&lt;/script&gt;</code></li>
+<li></li>
+<li></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="common_wrap"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;東京・横
+浜のクライアントにUIデザイナーとしての特徴を生かしたwebサイトおよびホームページ制作。アプリデザインなどwebサイト・メディアを通して伝えた
+い価値を提供します。&lt;/h1&gt;</code></li>
+<li></li>
+<li></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&gt;</code></li>
+<li><code>&nbsp;&nbsp; &lt;script type="text/javascript" &gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;include("inc/header.html");</code></li>
+<li><code><a name="32"><span class="error-line">&nbsp;&nbsp; &lt;/script&gt;</span></a></code></li>
+<li><code>&lt;/div&gt;</code></li>
+<li><code><a name="34"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;header&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="header_inner"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="header_left"&gt;</code></li>
+<li><code><a name="37"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;nav&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</code></li>
+<li><code><a name="40"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a
+ href="#"&gt;ロゴ&lt;/a&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</code></li>
+<li><code><a name="43"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a
+ href="#"&gt;私たちについて&lt;/a&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a
+ href="./service"&gt;サービス&lt;/a&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</code></li>
+<li><code><a name="49"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a
+ href="#"&gt;制作実績&lt;/a&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</code></li>
+<li><code><a name="52"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a
+ href="#"&gt;ワークフロー&lt;/a&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;</code></li>
+<li><code><a name="55"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/nav&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--header_left--&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="header_right"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</code></li>
+<li><code><a name="61"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a
+ href="#"&gt;パートナーをお探しの方へ&lt;/a&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;</code></li>
+<li><code><a name="64"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a
+ href="#"&gt;casa&amp;nbsp;nina&lt;/a&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/li&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--contents--&gt;</code></li>
+<li><code><a name="70"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/header&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="header_main"&gt;</code></li>
+<li><code><a name="72"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;canvas
+ id='c' width="1280" height="650"&gt;&lt;/canvas&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="common_contents"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p
+ class="header_chach"&gt;HELLO,GOODTIME &lt;/p&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2 class="header_subtxt"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span
+ class="header_yellow"&gt;感覚的にいいね&lt;/span&gt;！って思われる。そんなUIデザインを創ります</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/h2&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p class="header_scroll"&gt;</code></li>
+<li><code><a name="79"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img
+ src="img/top/scroll.png" alt="スクロールしてね" /&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--header_main--&gt;</code></li>
+<li></li>
+<li><code><a name="85"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;section class="top_about"&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="aboutinner"&gt;</code></li>
+<li></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="top_aboutimg"&gt;</code></li>
+<li><code><a name="89"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="img/top/bitmap01.png" alt="" /&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="top_aboutimg2"&gt;</code></li>
+<li><code><a name="92"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="img/top/bitmap03.png" alt="" /&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="top_aboutcontents"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3&gt;クライアントとユーザー、それぞれの起点をデザインの力でつなぎます&lt;/h3&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;nina(ニ
+ナ)は、都内webプロダクションに7年勤務後、2016年夏に独立したフリーランスのクリエイティブディレクター兼UIデザイナーで
+す。&lt;/p&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;UI
+デザイン力を生かし、webサイトおよびホームページ制作、アプリデザインなどでクライアントが伝えたい価値をユーザーへ届けるお手伝いをいたしま
+す。&lt;/p&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p class="btn_more top_btn"&gt;</code></li>
+<li><code><a name="100"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a
+ href="#"&gt;Read&amp;nbsp;more&lt;/a&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code><a name="104"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="bg-gray top_bg-gray"&gt;&lt;/span&gt;</span></a></code></li>
+<li><code><a name="105"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/section&gt;</span></a></code></li>
+<li></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--top_archive--&gt;</code></li>
+<li><code><a name="108"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--&lt;section class="top_archive"&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="top_margin"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3&gt;
+クライアントとユーザー、それぞれの起点をデザインの力でつなぎます&lt;/h3&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="top_txtbox"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;nina(ニ
+ナ)は、都内webプロダクションに7年勤務後、2016年夏に独立したフリーランスのクリエイティブディレクター兼UIデザイナーで
+す。&lt;/p&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;UI
+デザイン力を生かし、webサイトおよびホームページ制作、アプリデザインなどでクライアントが伝えたい価値をユーザーへ届けるお手伝いをいたしま
+す。&lt;/p&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="top_archivearea"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p
+ class="btn_more top_btn"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a
+ href="#"&gt;Read&amp;nbsp;more&lt;/a&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p class="top_archiveimg"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img
+ src="img/top/bitmap01.png" alt="" /&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span
+ class="bg-gray top_bg-gray"&gt;&lt;/span&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/section&gt;--&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--top_archive--&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--top_service--&gt;</code></li>
+<li><code><a name="128"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;section class="top_service"&gt;</span></a></code></li>
+<li><code><a name="129"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="bg-gray top_bg-gray"&gt;&lt;/span&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="top_contents"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="top_txtbox"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p
+ class="top_serviceimg"&gt;</code></li>
+<li><code><a name="133"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img
+ src="img/top/bitmap02.png" alt="" /&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div
+ class="top_servicebox"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div
+ class="top_servicetxt"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h4&gt;
+ほっこりする場所、思い出の残る仙台でのんびり散歩&lt;/h4&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p
+ 
+class="service_innertxt"&gt;クライアントとユーザーへの共感から仕事をはじめますクライアント仕事をはじめますクラとユー
+ザーへの共感から仕事をはじめますクライアントユーザーへの共感から仕事をはじめますクライアント&lt;/p&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p
+ class="btn_more top_btn"&gt;</code></li>
+<li><code><a name="141"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a
+ href="#"&gt;Read&amp;nbsp;more&lt;/a&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code><a name="146"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/section&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--top_service--&gt;</code></li>
+<li><code><a name="148"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;section class="top_works"&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="top_contents"&gt;</code></li>
+<li><code><a name="150"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</span></a></code></li>
+<li></li>
+<li><code><a name="152"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;article class="top_txtbox"&gt;</span></a></code></li>
+<li></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="photoimg"&gt;</code></li>
+<li><code><a name="155"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figure&gt;</span></a></code></li>
+<li><code><a name="156"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img
+ src="img/thumnail/thum01.png" width="400" height="300"&gt;</span></a></code></li>
+<li><code><a name="157"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figcaption&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3
+ class="title"&gt;Hover Effect 04&lt;/h3&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Hover
+ Effect Description&lt;/p&gt;</code></li>
+<li><code><a name="160"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figcaption&gt;</span></a></code></li>
+<li><code><a name="161"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figure&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="photoimg"&gt;</code></li>
+<li><code><a name="164"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figure&gt;</span></a></code></li>
+<li><code><a name="165"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img
+ src="img/thumnail/thum01.png" width="400" height="300"&gt;</span></a></code></li>
+<li><code><a name="166"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figcaption&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3
+ class="title"&gt;Hover Effect 04&lt;/h3&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Hover
+ Effect Description&lt;/p&gt;</code></li>
+<li><code><a name="169"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figcaption&gt;</span></a></code></li>
+<li><code><a name="170"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figure&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="photoimg"&gt;</code></li>
+<li><code><a name="173"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figure&gt;</span></a></code></li>
+<li><code><a name="174"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img
+ src="img/thumnail/thum01.png" width="400" height="300"&gt;</span></a></code></li>
+<li><code><a name="175"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figcaption&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3
+ class="title"&gt;Hover Effect 04&lt;/h3&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Hover
+ Effect Description&lt;/p&gt;</code></li>
+<li><code><a name="178"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figcaption&gt;</span></a></code></li>
+<li><code><a name="179"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figure&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="photoimg"&gt;</code></li>
+<li><code><a name="182"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figure&gt;</span></a></code></li>
+<li><code><a name="183"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img
+ src="img/thumnail/thum01.png" width="400" height="300"&gt;</span></a></code></li>
+<li><code><a name="184"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figcaption&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3
+ class="title"&gt;Hover Effect 04&lt;/h3&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Hover
+ Effect Description&lt;/p&gt;</code></li>
+<li><code><a name="187"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figcaption&gt;</span></a></code></li>
+<li><code><a name="188"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figure&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="photoimg"&gt;</code></li>
+<li><code><a name="191"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figure&gt;</span></a></code></li>
+<li><code><a name="192"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img
+ src="img/thumnail/thum01.png" width="400" height="300"&gt;</span></a></code></li>
+<li><code><a name="193"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figcaption&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3
+ class="title"&gt;Hover Effect 04&lt;/h3&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Hover
+ Effect Description&lt;/p&gt;</code></li>
+<li><code><a name="196"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figcaption&gt;</span></a></code></li>
+<li><code><a name="197"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figure&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="photoimg"&gt;</code></li>
+<li><code><a name="200"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figure&gt;</span></a></code></li>
+<li><code><a name="201"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img
+ src="img/thumnail/thum01.png" width="400" height="300"&gt;</span></a></code></li>
+<li><code><a name="202"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;figcaption&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h3
+ class="title"&gt;Hover Effect 04&lt;/h3&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Hover
+ Effect Description&lt;/p&gt;</code></li>
+<li><code><a name="205"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figcaption&gt;</span></a></code></li>
+<li><code><a name="206"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/figure&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li></li>
+<li><code><a name="209"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/article&gt;</span></a></code></li>
+<li><code><a name="210"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--&lt;div class="top_archivearea"&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p class="btn_more top_btn"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a href="#"&gt;Read&amp;nbsp;more&lt;/a&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p class="top_archiveimg"&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="img/top/bitmap01.png" alt="" /&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;span class="top_bg-gray"&gt;&lt;/span&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;--&gt;</code></li>
+<li><code><a name="219"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/section&gt;</span></a></code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;!--top_works--&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;</code></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;ul id="common_sns"&gt;</code></li>
+<li><code><a name="223"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a
+ href="#"&gt;&lt;img src="img/common/facebook-color.png" alt="" 
+/&gt;&lt;/a&gt;&lt;/li&gt;</span></a></code></li>
+<li><code><a name="224"><span class="error-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;&lt;a
+ href="#"&gt;&lt;img src="img/common/twitter-color.png" alt="" 
+/&gt;&lt;/a&gt;&lt;/li&gt;</span></a></code></li>
+<li></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/ul&gt;</code></li>
+<li></li>
+<li><code>&nbsp;&nbsp;&nbsp;&nbsp;&lt;script type="text/javascript" src="js/particle.js"&gt;&lt;/script&gt;</code></li>
+<li></li>
+<li></li>
+<li><code>&lt;/body&gt;</code></li>
+<li></li>
+<li><code>&lt;/html&gt;</code></li>
+</ol>
+<hr><div align="center">
+<address>-- #958535 -- cost 0 sec --<br>This page was generated by htmllint.cgi 1.28 / htmllint.pm 3.58<br>
+CGI 3.42 / Jcode 2.07<br>
+1997-2009 © by <!--a href="mailto:k16@chiba.email.ne.jp"-->k16@chiba.email.ne.jp<!--/a--></address></div>
+<hr><div class="nav" align="center">
+[<a href="http://cetus.sakura.ne.jp/htmllint/index.html">about</a>]
+[<a href="http://cetus.sakura.ne.jp/htmllint/sitemap.html">sitemap</a>]
+[<a href="http://cetus.sakura.ne.jp/htmllint/htmllint.html">gateway</a>]
+[<a href="http://cetus.sakura.ne.jp/htmllint/htmllintl.html">lite</a>]
+[<a href="http://cetus.sakura.ne.jp/htmllint/htmllinte.html">dyn</a>]
+</div>
+
+</body></html>

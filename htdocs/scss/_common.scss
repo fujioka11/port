@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.9em;
+  font-family:  "Verdana",'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif!important;
+
+  /*font-family:  "Verdana",'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif!important;*/
+}
+
+section{
+  position: relative;
+  width: 100%;
+  padding: 100px 0 100px;
+
+  #c{
+    width: 1280px;
+    height: 269px;
+    @include center();
+
+  }
+}
+
+h2,h3,h4,h5,p{
+  color: $ptxtcolor;
+  @include fts(15,40);
+  font-weight: normal;
+}
+a{
+  text-decoration: none;
+  color: $ptxtcolor;
+}
+.common_mb10{
+  margin-bottom: 10px;
+}
+
+#common_sns {
+  position: fixed;
+    top: 300px;
+    left:  20px;
+    margin-top: -4px;
+
+    a{
+    background: #6BBB0E;
+    text-decoration: none;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    padding-top: 4px;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+    margin-top: 4px;
+
+    &:hover{
+      background: #F5A623;
+    }
+    }
+}
+
+.common_container{
+  position: relative;
+}
+
+.under_contents {
+  width: $under_wrap;
+  @include cf();
+  @include center();
+}
+
+.common_under-left{
+  width: 980px;
+  text-align: center;
+}
+
+.common_under-right{
+  float: right;
+}
+
+.common_headline {
+  @include fts(0);
+  color: #000;
+  position: relative;
+  height: 80px;
+  margin-bottom: 20px;
+  font-weight: normal;
+
+  &:before,&:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 0;
+    bottom: 0px;
+    width: 100px;
+    margin-left: -50px;
+    border-bottom: 4px solid $basecolor;
+  }
+}
+.common_under-headline{
+    @include fts(20,50);
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+.common_subheadline {
+  @include fts(20,40);
+  color: $titlecolor;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.common_boldfont {
+  font-weight: bold;
+  margin: 10px 0;
+  @include fts(16);
+  display: inline-block;
+
+}
+
+.common_under{
+  background: $secondcolor;
+  /*background-image: url(../img/common/tram.png);*/
+  background-position: left top;
+  padding-bottom: 70px;
+}
+
+.bg-gray {
+  position: absolute;
+  display: block;
+  z-index: -2;
+  width: 100%;
+  background: $secondcolor;
+  background-position: left top;
+}
+#top{
+
+.titillium{
+  font-family: 'Titillium Web', sans-serif;
+  color: #989898;
+
+  margin-bottom: 15px;
+  @include fts(17,24);
+  font-weight: bold;
+
+  span{
+    @include fts(10);
+    color: #9A9A9A;
+    display: inline-block;
+    margin-left: 1.5em;
+    font-weight: normal;
+  }
+}
+
+}
+
+.mt35{
+  margin-top: 35px;
+}

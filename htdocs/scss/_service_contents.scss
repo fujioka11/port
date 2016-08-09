@@ -1,0 +1,120 @@
+.service_box{
+
+  padding-top:70px;
+  padding-bottom: 70px;
+
+  .weight {
+    margin-top: -20px;
+  }
+
+}
+
+.service_detailtxt {
+  width: 600px;
+  padding: 30px 40px;
+  background: #fff;
+  z-index: 2;
+  position: absolute;
+  right: 40px;
+  bottom: -70px;
+box-shadow: 0px 1px 2px 0px rgba(201,201,201,0.50);
+
+h2{
+  font-weight: bold;
+  margin-bottom: 20px;
+  @include fts(18);
+  letter-spacing: 0.1em;
+
+  span{
+    border-bottom:4px solid #f1de26;
+    padding-bottom: 0.2em;
+  }
+}
+}
+
+
+.service_ux {
+  position: relative;
+  height: 570px;
+  margin-top: 40px;
+}
+
+.service_imgarea {
+  width: 1200px;
+  @include center();
+  position: relative;
+}
+
+.service_detail {
+  @include cf();
+  @include center();
+  width: 1210px;
+  text-align: center;
+
+  .service_detailbox{
+    display: inline-block;
+    width: 360px;
+    margin: 40px 20px 0;
+    text-align: left;
+
+    p{
+      @include fts(14,28);
+    }
+
+    h5{
+      font-weight: bold;
+      @include fts(16,40);
+    }
+  }
+
+  h4{
+    @include fts(16);
+    margin-bottom: 0.6em;
+  }
+
+  p{
+    line-height: 1.8em;
+  }
+
+}
+
+.service_img {
+  background-image: url(../img/service/service_bg.png);
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  margin-bottom: 20px;
+
+  .service_ico{
+    position: relative;;
+    top: 54px;
+
+    .service_banner{
+      color: #fff;
+      margin-top: 1.2em;
+      @include fts(16);
+    }
+  }
+}
+
+.service_bold{
+  font-weight: bold;
+  @include fts(18,28);
+  display: inline-block;
+  margin: 1.7em 0 0.7em;
+  letter-spacing: 0.03em;
+}
+
+.service_title{
+  @include fts(19);
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+
+}
+
+
+.service_bg-gray {
+  bottom: 0px;
+  height: 210px;
+}

@@ -1,0 +1,139 @@
+.about {
+  padding: 50px 0 70px-16;
+  @include cf();
+
+  .under_contents{
+    width: 700px;
+    @include center();
+  }
+
+  h4{
+    margin-bottom: 20px;
+  }
+
+
+
+
+  .about_table{
+    width:100%;
+    @include center();
+    line-height: 2.5em;
+
+    dt{
+      float: left;
+      width: 140px;
+      clear: both;
+    }
+    dd{
+      float: left;
+      margin-bottom: 10px;
+      @include widtnPercent(700,690-140);
+    }
+  }
+}
+
+
+.about_bg-gray {
+  position: absolute;
+  display: block;
+  z-index: -2;
+  width: 100%;
+  background: $secondcolor;
+  bottom: 0px;
+}
+
+.about_ux {
+  position: relative;
+  margin-top: 40px;
+}
+
+.about_ux2 {
+  position: relative;
+  height: 640px;
+}
+
+.about_imgarea {
+  width: 1200px;
+  @include center();
+  position: relative;
+}
+.about_detail{
+  width: 100%;
+  @include center();
+  margin-top: 40px;
+  background: $basecolor;
+
+}
+
+.about_detailtxt {
+
+  margin-top: 60px;
+
+  h2{
+    text-align: center;
+    @include fts(24);
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+
+  }
+  h3{
+    text-align: center;
+    width: 900px;
+    @include center();
+  }
+}
+
+.about_profile {
+  position: absolute;
+  margin-top: 70px;
+  width: 1100px;
+  left: 50%;
+  margin-left: - 1100px/2;
+
+
+  img{
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+  }
+  .profilebox{
+    position: absolute;
+    left: 620px;
+    top: 50px;
+
+  }
+  .profileinner{
+    padding: 30px 40px;
+    background: #68afbb;
+    width: 500px;
+    text-align: left;
+
+    h4{
+      @include fts(18,34);
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+
+      span{
+        @include fts(11);
+        display: inline-block;
+        margin-left: 1em;
+
+      }
+    }
+    p{
+      @include fts(16,34);
+      color: #fff;
+
+      span{
+        @include fts(11,34);
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+.about_bg-gray{
+  bottom: 0px;
+  height: 330px;
+}
